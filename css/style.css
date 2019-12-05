@@ -43,6 +43,12 @@
 .size_100{
   width: 100%;
 }
+.header-top li a {
+  color: #252a97;
+  font-size: 16px;
+  text-decoration: none;
+}
+
 #btn_border_blue{
   border: 2px solid #395ae5;
   border-radius: 5px;
