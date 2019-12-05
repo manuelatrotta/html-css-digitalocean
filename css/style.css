@@ -6,6 +6,7 @@
 .col-xs-5{
   background-color: green;
 }
+.container{background-color: purple;}
 /*header-nav*/
 .header-top{
   position: fixed;
@@ -18,4 +19,13 @@
 .jumbotron{
   margin-top: 20px;
   padding: 80px 0;
+}
+.red{
+  background-color: red;
+}
+.box-logs{
+  display: inline;
+  width: 50%;
+  background-color: yellow;
+
 }
