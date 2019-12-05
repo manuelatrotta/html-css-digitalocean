@@ -1,3 +1,8 @@
-.red{
-  background-color: red;
+
+ /* DEBUG:  */
+.col-xs-2{
+  background-color: yellow;
+}
+.col-xs-5{
+  background-color: green;
 }
