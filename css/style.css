@@ -9,6 +9,9 @@
 .container{
   background-color: purple;
 }
+.red{
+  background-color: red;
+}
 .margin_bottom_30{
   margin-bottom: 30px;
 }
