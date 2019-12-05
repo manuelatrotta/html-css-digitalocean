@@ -49,3 +49,13 @@
   width: 50%;
   background-color: yellow;
 }
+.container-list{
+  display:inline-block;
+  width: 50%;
+  max-width: 400px;
+}
+.development-box{
+  position: relative;
+  width: 100%;
+  height: 200px;
+}
