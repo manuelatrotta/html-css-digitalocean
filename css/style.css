@@ -6,7 +6,26 @@
 .col-xs-5{
   background-color: green;
 }
-.container{background-color: purple;}
+.container{
+  background-color: purple;
+}
+.margin_bottom_30{
+  margin-bottom: 30px;
+}
+.design{
+  position: relative;
+  height: 300px;
+  background-color: red;
+}
+.rocket-box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate( -50% , -50% );
+  width: 200px;
+  height: 100px;
+  background-color: pink;
+}
 /*header-nav*/
 .header-top{
   position: fixed;
