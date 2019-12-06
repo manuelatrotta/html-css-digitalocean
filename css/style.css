@@ -6,6 +6,9 @@
   background-color: red;
 }
 /*general features*/
+.margin_bottom_50{
+  margin-bottom: 50px;
+}
 .margin_bottom_30{
   margin-bottom: 30px;
 }
@@ -15,6 +18,7 @@
 .margin_top_20{
   margin-top: 20px;
 }
+
 .size_100{
   width: 100%;
 }
@@ -52,6 +56,9 @@
 }
 .padding_30{
   padding: 30px;
+}
+.padding_top_78{
+  padding-top: 78px;
 }
 .font_color_blue{
   color: #005FE6;
