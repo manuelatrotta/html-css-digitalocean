@@ -117,11 +117,6 @@
 #title_blue{
   color: #395ae5;
 }
-/*section logs*/
-/*.box-logs{
-  display: inline;
-  width: 50%;
-}*/
 .logo{
   display: inline-block;
   width: calc( (100% / 2) - 4px);
@@ -143,6 +138,13 @@
   color: #d5d8f1;
   border-left: 2px solid #d5d8f1;
 }
+
+@media screen and (min-width: 768px){
+  .list_deploy{
+    text-align: left;
+  }
+}
+
 .design{
   position: relative;
   height: 700px;
