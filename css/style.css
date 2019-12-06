@@ -21,6 +21,11 @@
 .size_15{
   width: 15%;
 }
+.p_page{
+font-weight: bold;
+font-size: 20px;
+color: #95a0b5;
+}
 .font_size30{
   font-size: 20px;
 }
@@ -32,12 +37,6 @@
 }
 .padding_50{
   padding: 50px;
-}
-.size_100{
-  width: 100%;
-}
-.font_size30{
-  font-size: 20px;
 }
 .font_color_blue{
   color: #005FE6;
