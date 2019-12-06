@@ -12,6 +12,9 @@
 .margin_top_30{
   margin-top: 30px;
 }
+.margin_top_20{
+  margin-top: 20px;
+}
 .size_100{
   width: 100%;
 }
@@ -62,9 +65,7 @@
 .background_lightgrey{
   background-color: #f2f3f7;
 }
-.padding_50{
-  padding: 50px;
-}
+
 .design{
   position: relative;
   height: 300px;
