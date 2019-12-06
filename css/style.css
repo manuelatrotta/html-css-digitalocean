@@ -21,10 +21,19 @@
 .size_15{
   width: 15%;
 }
-.p_page{
-font-weight: bold;
-font-size: 20px;
-color: #95a0b5;
+.h4_page{
+  font-size: 18px;
+  font-weight: bold;
+}
+.p_principal_page{
+  font-weight: bold;
+  font-size: 20px;
+  color: #95a0b5;
+}
+.p_secondary_page{
+  font-weight: bold;
+  font-size: 15px;
+  color: #95a0b5;
 }
 .font_size30{
   font-size: 20px;
@@ -37,6 +46,9 @@ color: #95a0b5;
 }
 .padding_50{
   padding: 50px;
+}
+.padding_30{
+  padding: 30px;
 }
 .font_color_blue{
   color: #005FE6;
