@@ -142,13 +142,16 @@
   color: #000;
   cursor: pointer;
 }
+.li_deploy:active{
+  border-left: 2px solid #395ae5;
+}
 
 @media screen and (max-width: 768px){
   #row_deploy{
     text-align: left;
   }
 }
-
+/*section design*/
 .design{
   position: relative;
   height: 700px;
@@ -161,12 +164,20 @@
   transform: translate( -50% , -50% );
   width: 500px;
   height: 300px;
-  background-color: pink;
 }
-.rocket::after,
-.rocket::before{
-  content: "<";
-
+.rocket_arrow_left{
+  position: absolute;
+  bottom: 100px;
+  right: 600px;
+  font-size: 30px;
+  color: #abb4c6;
+}
+.rocket_arrow_right{
+  position: absolute;
+  bottom: 100px;
+  left: 600px;
+  font-size: 30px;
+  color: #252a97;
 }
 #btn_border_blue{
   border: 2px solid #252a97;
