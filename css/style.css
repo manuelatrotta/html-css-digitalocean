@@ -105,13 +105,20 @@ color: #95a0b5;
   font-weight: bold;
   color: white;
 }
-.border_radius_5{
-  border-radius: 5px;
-}
 #title_blue{
   color: #395ae5;
 }
-
+/*section deploy*/
+.list_deploy{
+  display: inline-block;
+  padding: 5px;
+  list-style:none;
+  line-height: 40px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #d5d8f1;
+  border-left: 2px solid #d5d8f1;
+}
 .design{
   position: relative;
   height: 300px;
