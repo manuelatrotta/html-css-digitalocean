@@ -1,11 +1,6 @@
 
  /* DEBUG:  */
-.col-xs-2{
-  background-color: yellow;
-}
-.col-xs-5{
-  background-color: green;
-}
+
 
 .red{
   background-color: red;
@@ -16,6 +11,9 @@
 }
 .size_100{
   width: 100%;
+}
+.size_5{
+  width: 5%;
 }
 .font_size30{
   font-size: 20px;
@@ -34,6 +32,9 @@
 }
 .font_size30{
   font-size: 20px;
+}
+.border_radius_5{
+  border-radius: 5px;
 }
 .background_white{
   background-color: #fff;
@@ -78,6 +79,7 @@
 .jumbotron{
   margin-top: 84px;
   padding: 80px 0;
+  background-image: url(../img/backgroung_ocean.jpg);
 }
 #jumbo_box{
   padding: 30px 50px;
@@ -92,8 +94,8 @@
   font-weight: bold;
   color: white;
 }
-.jumbotron{
-  background-image: url(../img/backgroung_ocean.jpg);
+.border_radius_5{
+  border-radius: 5px;
 }
 #title_blue{
   color: #395ae5;
