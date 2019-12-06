@@ -73,20 +73,6 @@
   background-color: #f2f3f7;
 }
 
-.design{
-  position: relative;
-  height: 300px;
-  background-color: red;
-}
-.rocket-box{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate( -50% , -50% );
-  width: 200px;
-  height: 100px;
-  background-color: pink;
-}
 /*header-nav*/
 .header-top{
   position: fixed;
@@ -141,7 +127,7 @@
 }
 .design{
   position: relative;
-  height: 300px;
+  height: 700px;
   background-color: red;
 }
 .rocket-box{
@@ -149,8 +135,8 @@
   top: 50%;
   left: 50%;
   transform: translate( -50% , -50% );
-  width: 200px;
-  height: 100px;
+  width: 400px;
+  height: 200px;
   background-color: pink;
 }
 #btn_border_blue{
