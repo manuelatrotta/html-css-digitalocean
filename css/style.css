@@ -48,12 +48,19 @@
   font-size: 16px;
   text-decoration: none;
 }
+.header-top nav ul li a:hover{
+  color: #395ae5;
+}
 
 #btn_border_blue{
-  border: 2px solid #395ae5;
+  border: 2px solid #252a97;
   border-radius: 5px;
   background-color: #fff;
   color: #395ae5;
+}
+#btn_border_blue:hover{
+  background-color: #252a97;
+  color: #fff;
 }
 
 /*jumbotron*/
