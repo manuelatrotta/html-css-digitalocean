@@ -117,6 +117,12 @@
 #title_blue{
   color: #395ae5;
 }
+/*section logs*/
+.box-logs{
+  display: inline;
+  width: 50%;
+}
+
 
 /*section deploy*/
 .list_deploy{
@@ -157,12 +163,6 @@
 #btn_border_blue:hover{
   background-color: #252a97;
   color: #fff;
-}
-
-/*section logs*/
-.box-logs{
-  display: inline;
-  width: 50%;
 }
 .container-list{
   display:inline-block;
