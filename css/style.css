@@ -117,6 +117,7 @@
 #title_blue{
   color: #395ae5;
 }
+
 /*section deploy*/
 .list_deploy{
   display: inline-block;
@@ -162,7 +163,6 @@
 .box-logs{
   display: inline;
   width: 50%;
-  background-color: yellow;
 }
 .container-list{
   display:inline-block;
