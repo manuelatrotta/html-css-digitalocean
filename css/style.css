@@ -69,6 +69,9 @@
 .font_color_blue{
   color: #005FE6;
 }
+.border_bottom_white{
+  border-bottom: 2px solid black;
+}
 .border_radius_5{
   border-radius: 5px;
 }
@@ -194,7 +197,7 @@
 }
 .container-list{
   display:inline-block;
-  width: 50%;
+  width: 100%;
   max-width: 400px;
 }
 .development-box{
