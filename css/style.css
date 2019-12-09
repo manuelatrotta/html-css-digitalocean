@@ -1,7 +1,5 @@
 
  /* DEBUG:  */
-
-
 .red{
   background-color: red;
 }
@@ -57,7 +55,9 @@
 .font_size15{
   font-size: 15px;
 }
-
+.font_size12{
+  font-size: 12px;
+}
 .font_bold{
   font-weight: bold;
 }
@@ -76,11 +76,20 @@
 .margin_right_15{
   margin-right: 15px;
 }
+.vertical-aligne_middle{
+  vertical-align: middle;
+}
+.height_200px{
+  height: 200px;
+}
 .font_color_blue{
   color: #005FE6;
 }
 .font_color_white{
   color: #fff;
+}
+.font_color_grey{
+  color: #f3f5f9;
 }
 .border_bottom_white{
   border-bottom: 2px solid black;
@@ -97,7 +106,12 @@
 .background_grad{
   background-color: rgba( 8, 29, 92, 100);
 }
-
+.background_lightblue{
+  background-color: #0069ff;
+}
+.background_blue{
+  background-color: #041d4f;
+}
 /*header-nav*/
 .header-top{
   position: fixed;
@@ -222,7 +236,7 @@
   height: 200px;
 }
 .#dot_{
-  width: 100%;
+  width: 200px;
   color: #f2f3f7;
   border-color: #252a97;
 }
@@ -230,4 +244,18 @@
 .conteiner-development{
   position: relative;
   height: 700px;
+}
+/*footer*/
+/*footer-top*/
+.footer-top{
+  position: relative;
+}
+.started_now{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
+#create_btn{
+  color: #005FE6;
 }
