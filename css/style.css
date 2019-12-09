@@ -79,6 +79,9 @@
 .vertical-aligne_middle{
   vertical-align: middle;
 }
+.list_style_none{
+  list-style: none;
+}
 .height_200px{
   height: 200px;
 }
