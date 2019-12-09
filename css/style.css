@@ -12,6 +12,9 @@
 .margin_bottom_30{
   margin-bottom: 30px;
 }
+.margin_bottom_20{
+  margin-bottom: 20px;
+}
 .margin_top_30{
   margin-top: 30px;
 }
@@ -21,6 +24,9 @@
 
 .size_100{
   width: 100%;
+}
+.size_40{
+  width: 40%;
 }
 .size_5{
   width: 5%;
@@ -42,12 +48,16 @@
   font-size: 15px;
   color: #95a0b5;
 }
-.font_size30{
+.font_size20{
   font-size: 20px;
 }
 .font_size_25{
   font-size: 25px;
 }
+.font_size15{
+  font-size: 15px;
+}
+
 .font_bold{
   font-weight: bold;
 }
@@ -211,9 +221,8 @@
   width: 100%;
   height: 200px;
 }
-.dot_{
+.#dot_{
   width: 100%;
-  border-radius: 50%;
   color: #f2f3f7;
   border-color: #252a97;
 }
