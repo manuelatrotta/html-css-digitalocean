@@ -4,6 +4,7 @@
   background-color: red;
 }
 /*general features*/
+/*margin*/
 .margin_bottom_50{
   margin-bottom: 50px;
 }
@@ -19,7 +20,10 @@
 .margin_top_20{
   margin-top: 20px;
 }
-
+.margin_right_15{
+  margin-right: 15px;
+}
+/*widht height*/
 .size_100{
   width: 100%;
 }
@@ -32,6 +36,10 @@
 .size_15{
   width: 15%;
 }
+.height_200px{
+  height: 200px;
+}
+/*title and paragraphes*/
 .h4_page{
   font-size: 18px;
   font-weight: bold;
@@ -46,6 +54,7 @@
   font-size: 15px;
   color: #95a0b5;
 }
+/*font*/
 .font_size20{
   font-size: 20px;
 }
@@ -61,30 +70,6 @@
 .font_bold{
   font-weight: bold;
 }
-.line_height_20{
-  line-height: 20px;
-}
-.padding_50{
-  padding: 50px;
-}
-.padding_30{
-  padding: 30px;
-}
-.padding_top_78{
-  padding-top: 78px;
-}
-.margin_right_15{
-  margin-right: 15px;
-}
-.vertical-aligne_middle{
-  vertical-align: middle;
-}
-.list_style_none{
-  list-style: none;
-}
-.height_200px{
-  height: 200px;
-}
 .font_color_blue{
   color: #005FE6;
 }
@@ -94,12 +79,35 @@
 .font_color_grey{
   color: #f3f5f9;
 }
+.line_height_20{
+  line-height: 20px;
+}
+/*padding*/
+.padding_50{
+  padding: 50px;
+}
+.padding_30{
+  padding: 30px;
+}
+.padding_top_78{
+  padding-top: 78px;
+}
+/*vertical-aligne list-style*/
+.vertical-aligne_middle{
+  vertical-align: middle;
+}
+.list_style_none{
+  list-style: none;
+}
+
+/*border*/
 .border_bottom_white{
   border-bottom: 2px solid black;
 }
 .border_radius_5{
   border-radius: 5px;
 }
+/*background*/
 .background_white{
   background-color: #fff;
 }
@@ -159,6 +167,8 @@
 .logo{
   display: inline-block;
   width: calc( (100% / 2) - 4px);
+  vertical-align: middle;
+  padding: 0 20px;
 }
 @media screen and (min-width: 768px){
   .logo{
@@ -217,7 +227,13 @@
   font-size: 30px;
   color: #252a97;
 }
-
+#circle{
+  border-radius: 2px;
+  border-color: #0069ff;
+}
+#circle:first-child{
+  background-color: #0069ff;
+}
 #btn_border_blue{
   border: 2px solid #252a97;
   border-radius: 5px;
@@ -238,7 +254,7 @@
   width: 100%;
   height: 200px;
 }
-.#dot_{
+#dot_{
   width: 200px;
   color: #f2f3f7;
   border-color: #252a97;
