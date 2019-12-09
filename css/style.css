@@ -217,3 +217,8 @@
   color: #f2f3f7;
   border-color: #252a97;
 }
+/*development*/
+.conteiner-development{
+  position: relative;
+  height: 700px;
+}
