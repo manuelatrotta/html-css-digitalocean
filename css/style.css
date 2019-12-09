@@ -69,6 +69,9 @@
 .font_color_blue{
   color: #005FE6;
 }
+.font_color_white{
+  color: #fff;
+}
 .border_bottom_white{
   border-bottom: 2px solid black;
 }
@@ -80,6 +83,9 @@
 }
 .background_lightgrey{
   background-color: #f2f3f7;
+}
+.background_grad{
+  background-color: rgba(46, 83, 194, 100);
 }
 
 /*header-nav*/
